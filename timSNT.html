@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let num = +prompt('nhap so')
+    let count = 0;
+    for (let snt = 2; count<num;snt ++){
+        let checkSNT = true;
+        console.log(snt,"aaa")
+        for(let i = 2; i<snt; i++){
+            console.log(i,snt)
+            if (snt % i ==0) {
+                checkSNT = false;
+                break;
+            }
+
+
+        }if(checkSNT){
+            count++;
+            document.write(snt + "", "<br>")
+    }
+    }
+</script>
+</body>
+</html>
