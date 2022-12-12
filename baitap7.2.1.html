@@ -6,19 +6,20 @@
 </head>
 <body>
 <script>
-    // for (let i =1;i<=100;i++){
-    //     document.write(i + "<br>")
-    //     if(i==99){
-    //         alert('da hoan thanh')
-    //     }
-    // }
-    for (let i =1;i <= 100;i++){
-        if (i == 99){
-            document.write(i + 'da hoan thanh<br>' )
-        }else {
-            document.write(i + "<br>")
-        }
-    }
+   let so = prompt('nhap so')
+   let a = 0
+   let b = 1
+   let c
+   for (i = 1;i <= so;i++){
+       document.write( a + "<br>")
+       c = a;
+       a = b;
+       b = c + a;
+
+
+   }
+
+
 </script>
 </body>
 </html>

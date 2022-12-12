@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    sum = 1
+    let a = 0;
+   let b = 1;
+    for (i= 0; i < 18 ; i ++) {
+
+        let temp = a + b
+
+        sum += temp
+
+        a = b
+        b = temp
+    }
+
+    document.write('tong hai muoi so fibonaci dau tien la: ', sum)
+</script>
+</body>
+</html>
